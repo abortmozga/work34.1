@@ -1,0 +1,42 @@
+.arena{
+    width: 930px;
+    height: 587px;
+    border: 5px solid black;
+    position: relative;
+    background-image: url(https://static.wikia.nocookie.net/brawlstars/images/6/67/Cavern_Churn-Map.png/revision/latest?cb=20200821172202&path-prefix=ru);
+}
+.buttons{
+    width: 50%;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.btn{
+    width: 80px;
+    background-color: blue;
+    height: 40px;
+    color: white;
+    margin-bottom:25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 15%;
+}
+.cont{
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    align-items:center ;
+}
+.bull{
+    width: 120px;
+    height: 88px;
+    background-image: url(https://static.wikia.nocookie.net/brawlstars/images/4/4a/Bull_Portrait.png/revision/latest/scale-to-width-down/120?cb=20200304182325);
+    border-radius: 7%;
+    position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+}
